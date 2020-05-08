@@ -8,8 +8,10 @@ branding:
 inputs:
   html_path:
     description: 'Path to the HTML file to be updated'
+    required: true
   base_href:
     description: 'New base href to be applied'
+    required: true
 
 runs:
   using: 'node12'
