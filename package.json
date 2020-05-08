@@ -1,0 +1,23 @@
+{
+  "name": "ghaction-rewrite-base-href",
+  "version": "1.0.0",
+  "description": "GitHub action to rewrite a base href attribute",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SteveSandersonMS/ghaction-rewrite-base-href.git"
+  },
+  "author": "Steve Sanderson",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SteveSandersonMS/ghaction-rewrite-base-href/issues"
+  },
+  "homepage": "https://github.com/SteveSandersonMS/ghaction-rewrite-base-href#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^2.2.0"
+  }
+}

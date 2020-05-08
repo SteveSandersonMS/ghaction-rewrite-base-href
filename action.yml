@@ -1,0 +1,16 @@
+name: 'Rewrite base href'
+description: 'Updates the base href within an HTML file'
+author: 'SteveSandersonMS'
+branding:
+  color: 'purple'
+  icon: 'at-sign'
+
+inputs:
+  html_path:
+    description: 'Path to the HTML file to be updated'
+  base_href:
+    description: 'New base href to be applied'
+
+runs:
+  using: 'node12'
+  main: 'index.js'
