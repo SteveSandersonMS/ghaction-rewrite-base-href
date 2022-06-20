@@ -1,6 +1,6 @@
 {
   "name": "ghaction-rewrite-base-href",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "GitHub action to rewrite a base href attribute",
   "main": "index.js",
   "scripts": {

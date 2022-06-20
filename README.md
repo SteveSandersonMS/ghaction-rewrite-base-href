@@ -6,7 +6,11 @@ GitHub action to rewrite the base href in an HTML file
 
 ### `html_path`
 
-**Required** Path to the HTML file to be updated.
+**Optional** Path to the HTML file to be updated.
+
+### `html_glob`
+
+**Optional** Glob matching HTML files to be updated.
 
 ### `base_href`
 
@@ -17,9 +21,20 @@ GitHub action to rewrite the base href in an HTML file
 
 ## Example usage
 
+With `html_path`:
+
 ```yaml
-uses: SteveSandersonMS/ghaction-rewrite-base-href@v1
+uses: SteveSandersonMS/ghaction-rewrite-base-href@v1.1.0
 with:
   html_path: 'path/to/index.html'
+  base_href: '/MyProjectName/'
+```
+
+With `html_glob`:
+
+```yaml
+uses: SteveSandersonMS/ghaction-rewrite-base-href@v1.1.0
+with:
+  html_glob: 'dist/**/*.html'
   base_href: '/MyProjectName/'
 ```

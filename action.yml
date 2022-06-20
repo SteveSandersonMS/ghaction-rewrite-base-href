@@ -1,5 +1,5 @@
 name: 'Rewrite base href'
-description: 'Updates the base href within an HTML file'
+description: 'Updates the base href within HTML files'
 author: 'SteveSandersonMS'
 branding:
   color: 'purple'
@@ -8,7 +8,10 @@ branding:
 inputs:
   html_path:
     description: 'Path to the HTML file to be updated'
-    required: true
+    required: false
+  html_glob:
+    description: 'Glob matching HTML files to be updated'
+    required: false
   base_href:
     description: 'New base href to be applied'
     required: true
