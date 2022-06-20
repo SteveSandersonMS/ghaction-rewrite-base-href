@@ -18,6 +18,7 @@
   "homepage": "https://github.com/SteveSandersonMS/ghaction-rewrite-base-href#readme",
   "dependencies": {
     "@actions/core": "^1.2.4",
-    "@actions/github": "^2.2.0"
+    "@actions/github": "^2.2.0",
+    "@actions/glob": "^0.3.0"
   }
 }
